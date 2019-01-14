@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: k8s-init-service-pod
+  labels:
+    purpose: demonstrate-service
+spec:
+  containers:
+  - name: container-name
+    image: nginx:stable
