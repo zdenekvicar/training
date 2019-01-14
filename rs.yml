@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: k8s-init-replicaset
+  labels:
+    purpose: demonstrate-replicaset
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      purpose: demonstrate-pods
+  template:
+    metadata:
+      labels:
+        purpose: demonstrate-pods
+    spec:
+      containers:
+      - name: container-name
+        image: alpine
+        command: ["/bin/sh"]
+        args: ["-c", "while true; do echo hello; sleep 10;done"]
