@@ -1,14 +1,12 @@
 ---
 apiVersion: v1
-kind: Pod
+kind: Service
 metadata:
-  name: k8s-init-service-nginx
-  labels:
-    purpose: demonstrate-service
-    app: nginx
+  name: k8s-init-service
 spec:
-  containers:
-  - name: container-name
-    image: nginx:stable
-    ports:
-      - containerPort: 80
+  ports:
+  - port: 80
+    protocol: TCP
+  selector:
+    app: nginx
+    purpose: demonstrate-service

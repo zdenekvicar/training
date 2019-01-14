@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
@@ -5,7 +6,7 @@ metadata:
   labels:
     purpose: demonstrate-replicaset
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       purpose: demonstrate-pods
@@ -16,6 +17,6 @@ spec:
     spec:
       containers:
       - name: container-name
-        image: alpine
-        command: ["/bin/sh"]
-        args: ["-c", "while true; do echo hello; sleep 10;done"]
+        image: nginx:stable
+        ports:
+          - containerPort: 80

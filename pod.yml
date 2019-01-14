@@ -1,13 +1,14 @@
+---
 apiVersion: v1
 kind: Pod
 metadata:
-  name: k8s-init-pod
+  name: k8s-init-nginx
   labels:
     purpose: demonstrate-pods
+    app: nginx
 spec:
   containers:
   - name: container-name
-    image: alpine
-    command: ["/bin/sh"]
-    args: ["-c", "while true; do echo hello; sleep 10;done"]
-  restartPolicy: OnFailure
+    image: nginx:stable
+    ports:
+      - containerPort: 80
