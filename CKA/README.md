@@ -3,7 +3,7 @@
 - **CKA exam version**: `v1.16`
     -   NOTE: Exam environment was updated to K8s v1.16 as of November 19th
     -   NOTE: All K8s documentation links are updated to point to v1.16
-- **Curriculum**: [`v1.15.0`](https://github.com/cncf/curriculum/blob/master/CKAD_Curriculum_V1.15.0.pdf)
+- **Curriculum**: [`v1.15.0`](https://github.com/cncf/curriculum/blob/master/old-versions/certified_kubernetes_administrator_exam_v1.15.pdf)
     -   NOTE: Even though K8s environment was upgraded to v1.16, curriculum remains the same (v1.15.0) as of now
 - **author**: `Zdenek Vicar`
 - **last update**: `26.11.2019`
