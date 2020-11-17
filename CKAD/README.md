@@ -8,6 +8,12 @@
 - **sources**: 
     -   https://github.com/cncf/curriculum
     -   https://kubernetes.io/docs/home/
+    <!-- -   https://www.oreilly.com/learning-paths/learning-path-certified/9781492061021/ -->
+    -   https://ravikirans.com/ckad-kubernetes-exam-preparation-guide/
+    <!-- -   https://github.com/Ameen-Alam/CKAD-exercises -->
+    <!-- -   https://github.com/dgkanatsios/CKAD-exercises -->
+    <!-- -   https://callistaenterprise.se/blogg/teknik/2020/04/30/CKAD-exam-preparation-tips/ -->
+
 
 
 ## Table of weights

@@ -1,16 +1,43 @@
 # Pod Design
 
 **Topics**
--   [Understand Deployments and how to perform rolling updates](#understand-deployments-and-how-to-perform-rolling-updates)
--   [Understand Deployments and how to perform rollbacks](#understand-deployments-and-how-to-perform-rollbacks)
--   [Understand Jobs and Cronjobs](#understand-jobs-and-cronjobs)
--   [Understand how to use Labels, Selectors, and Annotations](#understand-how-to-use-labels-selectors-and-annotations)
+-   [Understand Deployments and how to perform rolling updates](#deployments)
+-   [Understand Deployments and how to perform rollbacks](#deployments)
+-   [Understand Jobs and Cronjobs](#jobs-&-cronjobs)
+-   [Understand how to use Labels, Selectors, and Annotations](#labels-selectors-and-annotations)
 ---
 
-## Understand Deployments and how to perform rolling updates
+## **Deployments**
+### What is deployment object
+### Deployment states
+### Creating a deployment
+### Scaling a deployment
+### Updating a deployment
+### Rollback a deployment
+### Pausing & Resuming a deployment
+### Documentation materials:
+-   [Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+---
 
-## Understand Deployments and how to perform rollbacks
+## **Jobs & Cronjobs**
+### **What is Job**
+#### Creating a job
+#### Handling job failures
+#### Job termination and cleanup
 
-## Understand Jobs and Cronjobs
+### **What is CronJob**
+### Creating a CronJob
+### CronJob limitations
+### Documentation materials:
+-   [Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/job/)
+-   [CronJobs](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/)
+---
 
-## Understand how to use Labels, Selectors, and Annotations
+## **Labels, Selectors, and Annotations**
+### Labels
+### Selectors
+### Annotations
+### Documentation materials:
+-   [Labels and Selectors](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/)
+-   [Annotations](https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/)
+---
