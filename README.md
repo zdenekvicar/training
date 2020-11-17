@@ -12,10 +12,11 @@
 ## Kubernetes
 -   **Free materials**
     -   [CKA Exam Curriculum](./CKA/README.md)
+    -   [CKAD Exam Curriculum](./CKAD/README.md)
     -   [Katacoda - Kubernetes courses](https://www.katacoda.com/courses/kubernetes)
     -   [Introduction to Kubernetes by The Linux Foundation](https://www.edx.org/course/introduction-to-kubernetes)
     -   [Play with Kubernetes](https://labs.play-with-k8s.com)
-    -   Youtube videos / playlists
+    -   **Youtube videos / playlists**
         -   Channel: [IBM FSS FCI and Counter Fraud Management](https://www.youtube.com/channel/UCVjsceiYN0-5d4Ly93LjOjQ)
             -   [Kubernetes 101: Master](https://www.youtube.com/watch?v=DZ-Wv3XNoAk&list=PLqnWYrfCqvm76wCt6E0JnCIP1fVgMlnC-&index=7&t=0s)
             -   [Kubernetes 101: Nodes](https://www.youtube.com/watch?v=xhwi3zIVR-8&list=PLqnWYrfCqvm76wCt6E0JnCIP1fVgMlnC-&index=8&t=0s)
@@ -45,7 +46,7 @@
 -   **Payed materials**
     -   Book: [The DevOps 2.3 Toolkit: Kubernetes](https://leanpub.com/the-devops-2-3-toolkit)
         -   price: approx 30 USD
-    -   Udemy course: [Docker Mastery: with Kubernetes +Swarm from a Docker Captain](https://www.udemy.com/course/docker-mastery/)
+    -   Udemy course: [Docker Mastery: with Kubernetes + Swarm from a Docker Captain](https://www.udemy.com/course/docker-mastery/)
         -   price: approx 13 USD
     -   Udemy course: [Kubernetes for the Absolute Beginners - Hands-on](https://www.udemy.com/course/learn-kubernetes/)
         -   price: approx 13 USD
