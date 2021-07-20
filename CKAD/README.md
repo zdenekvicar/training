@@ -1,4 +1,4 @@
-# CKAD Exam Curriculum
+# CKAD - Certified Kubernetes Application Developer
 
 - **CKAD exam version**: `v1.19`
 - **Curriculum**: [`v1.19`](https://github.com/cncf/curriculum/blob/master/CKAD_Curriculum_V1.19.pdf)

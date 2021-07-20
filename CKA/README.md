@@ -1,4 +1,4 @@
-# CKA Exam Curriculum
+# CKA - Certified Kubernetes Administrator
 
 - **CKA exam version**: `v1.16`
     -   NOTE: Exam environment was updated to K8s v1.16 as of November 19th
