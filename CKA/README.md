@@ -5,9 +5,9 @@
     -   NOTE: All K8s documentation links are updated to point to v1.16
 - **Curriculum**: [`v1.15.0`](https://github.com/cncf/curriculum/blob/master/old-versions/certified_kubernetes_administrator_exam_v1.15.pdf)
     -   NOTE: Even though K8s environment was upgraded to v1.16, curriculum remains the same (v1.15.0) as of now
-- **author**: `Zdenek Vicar`
-- **last update**: `26.11.2019`
-- **sources**: 
+- **Author**: `Zdenek Vicar`
+- **Last update**: `26.11.2019`
+- **Sources**: 
     -   https://github.com/cncf/curriculum
     -   https://github.com/walidshaari/Kubernetes-Certified-Administrator/blob/master/README.md
     -   https://github.com/stretchcloud/cka-lab-practice
