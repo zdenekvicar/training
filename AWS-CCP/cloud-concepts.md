@@ -13,7 +13,7 @@
 -   **Reliability**
     -   AWS provides pretty high uptime/availability/durability guarancies for their services.
 -   **High Availability**
-    -   AWS provides very easy way of how to prepare high available applications, basic HA setups are as simple as introducint a ELB (Elastic Load Balancer) and multiAZ (Availability Zone) deployments.
+    -   AWS provides very easy way of how to prepare high available applications, basic HA setups are as simple as using a ELB (Elastic Load Balancer) and multiAZ (Availability Zone) deployments.
 -   **Elasticity**
     -   Elasticity is one of the biggest features of any public cloud provider. It allows customer to "tweak" resources of given services based on their needs. Upscale resources during peak hours, downscale or even shutdown during off-peak hours - while paying only for the real usage.
 -   **Agility**
@@ -23,7 +23,7 @@
 -   **Scalability**
     -   Closely tied to Elasticity attribute - there are numerous ways i AWS how to scale your workloads. Manually or even automatically based on some events / metrics. This makes the AWS a lot more scalable when compared to on-premises datacenters.
 -   **Global Reach**
-    -   AWS provides services across the world in different geo regions. There is no problem to run workloads in US, EU, ASIA, AFRICA - customer can choose the region closest to their customers, or fulfill some regulations.
+    -   AWS provides services across the world in different geo regions. There is no problem to run workloads in US, EU, ASIA, AFRICA - customer can choose the region closest to their users, or fulfill some regulations.
 -   **Economy of scale**
     -   AWS has built a vast infrastructure and can therefore benefit from lower prices coming from the scale. Customers using AWS can therefore benefit from the same - buying the same infrastructure alone would cost number of times more.
 
@@ -35,11 +35,11 @@
 ## 1.2 Identify aspects of AWS Cloud economics
 ### Define items that would be part of a Total Cost of Ownership proposal
 -   **Understand the role of operational expenses (OpEx)**
-    -   Operational expenses is the part usually tied with public clouds - these are ongoing expenses. Company switching to public cloud would have 0 CapEx coming from their own infrastructure, while having 100% OpEx.
+    -   Operational expenses are usually tied with public clouds - these are ongoing expenses. Company switching to public cloud would have 0 CapEx coming from their own infrastructure, while having 100% OpEx.
 -   **Understand the role of capital expenses (CapEx)**
     -   Capital expenses are usually counted as the expenses to buy own infrastruture. Company running on onpremises usually has these expenses higher than companies running in cloud.
 -   **Understand labor costs associated with on-premises operations**
-    -   Runnin onpremises operations brings significant labor costs as well -> company has to hire & pay teams to support and maintain the infrastructure. When migrating to cloud, such teams can be significantly reduced and company can focus more on the app-development side.
+    -   Running onpremises operations brings significant labor costs as well -> company has to hire & pay teams to support and maintain the infrastructure. When migrating to cloud, such teams can be significantly reduced and company can focus more on the app-development side.
 -   **Understand the impact of software licensing costs when moving to the cloud**
     -   Running onpremises operations brings also licensing cost as well. Many companies running onpremises are using some virtualization platforms, which counts to a licensing cost which can be totally ignored when running in cloud.
 
@@ -50,7 +50,7 @@
     -   Auto scale resources based on need -> reduce costs when we dont need big resource buffer.
     -   Auto-shutdown resources when not needed.
 -   **Reduce compliance scope (for example, reporting)**
-    -   Leveraging AWS resources will ensure compliance with several certifications. Since AWS manages the infrastructure begind, they are responsible for some compliance parts, thus offloading some from customer.
+    -   Leveraging AWS resources will ensure compliance with several certifications. Since AWS manages the infrastructure behind, they are responsible for some compliance parts, thus offloading some from customer.
 -   **Managed services (for example, RDS, ECS, EKS, DynamoDB)**
     -   Having managed resources can save engineering costs in company -> why having a K8s admin team if you can buy the service directly -> EKS
 
@@ -62,6 +62,6 @@
 -   **Decouple components versus monolithic architecture**
     -   In human words - having microservices loosely coupled helps increase the availability of a whole system. If one microservice fails - others will survive. In extreme situations, one microservice does not even has to know about a failure of another.
 -   **Implement elasticity in the cloud versus on-premises**
-    -   In human words - cloud is basicaly a synonymous to the word elasticity. A lot of services in cloud can be very elastic in terms of increasing the resources, scaling up/down, different kind of automations and conditional behaviour. Having the same level of elasticity in on-premises world is very very hard to achieve (if not impossible).
+    -   In human words - cloud is basicaly synonymous to the word elasticity. A lot of services in cloud can be very elastic in terms of increasing the resources, scaling up/down, different kind of automations and conditional behaviour. Having the same level of elasticity in on-premises world is very very hard to achieve (if not impossible).
 -   **Think parallel**
     -   In human words - try to parallelize & automate everything you can. Having 1mil of requests spread across 1000 servers will result in far better performance of your application than having only 1 server drowned with all requests. Cloud environment supports this approach and it is generally best practice to design applications to leverage this.
